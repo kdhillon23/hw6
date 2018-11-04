@@ -2,7 +2,7 @@ import re
 import unittest
 
 
-def sumNums(fileName):
+def sumNum(fileName):
     # Write a function sumNums(filename) to read from a
     # file when given the filename and look for integers (that are not phone numbers) using the re.findall(),
     # and then convert the extracted strings to integers and return the sum of the integers.
@@ -13,8 +13,8 @@ def sumNums(fileName):
     # phone_regex = re.compile(r"\d{3}-\d{3}-\d{4}")
     # findall_phones = re.findall(phone_regex, line)
     firstNum = map(int, findallVar)
-    sumNums = sum(firstNum)
-    return sumNums
+    sumNum = sum(firstNum)
+    return sumNum
 
 
 def countWord(fileName, word):
